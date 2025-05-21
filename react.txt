@@ -1,0 +1,86 @@
+자바스크립트 - 웹개발/ 프로그램
+
+자바스크립트 런타임 : 자바스크립트가 실행될 수 있는 환경
+ - 웹브라우저, node.js
+
+ - node.js(2009년 개발) : 구글의 자바스크립트 엔진을 이용해 서버측에서 실행이 가능하도록 만든 것
+  == spring boot
+  npm : package를 실행하는 명령어
+  yarn : npm 보다 향상된 명령어(이걸로 진행)
+
+
+ React : 자바스크립트 기반의 라이브러리
+
+TailWindCSS
+Material Icon Theme
+Reactjs code snippets
+
+edge사용 확장프로그램 addons 들어가서 react developer tools 설치
+
+
+setting에 include languages
+addiem -> javascript javascriptreact
+
+formatter -> prettier
+
+
+ 1. npm i --global yarn (yarn 설치)
+ 2. yarn --version (yarn 버전 확인)
+  yarn add 패키지명
+  yarn add tailwindcss @tailwindcss/vite
+ 3. react 프로그램 생성
+ npx create-react-app 앱이름 (전통적인 방법)
+ vite 환경에서 react 프로그램생성
+ yarn create vite - 프로젝트명 - React - javascript
+ yarn create vite 프로젝트명 --template react <--한번에 해주는 녀석
+ yarn 모듈생성
+
+ yarn dev 서버 실행
+ o <- 웹 실행
+ q <- 웹 종료
+
+ 4. 프로젝트 구조
+  - package.json : Node 기반 프로젝트는 가지고 있음(pom.xml)
+  - exlint.config.js : 자바스크립트 문법 검사(eslint) 도구의 환경설정 파일
+  - vite.config : vite 환경설정파일
+
+ 명령어
+- yarn dev : 작성하는 코드 실시간 반영확인하며 페이지 개발
+  r + enter to restart the server
+  u + enter to show server url   
+  o + enter to open in browser   
+  c + enter to clear console     
+  q + enter to quit
+
+yarn build : 개발된 코드들을 하나로 합쳐서 서비스 할 수 있는 상태로 만듬
+ dist 폴더 생성됨
+ src 폴더 안의 jsx 파일들을 번들러(묶어주는 개념)를 이용해 최적화 작업을 하게 됨
+
+yarn preview : 미리보기 (서버에 배포된 후 실행결과 보기)
+
+=====================================================================
+
+컴포넌트는 대문자로 생성
+jsx 문법
+ - 자바스크립트 확장 문법
+ - 브라우저에서 실행되기 전에 코드가 번들링 되는 과정에서 바벨을 사용하여
+   일반 자바스크립트 코드로 변환됨
+
+바벨 <-- 자바스크립트 문법으로 변환
+ - {} 사용
+ - 하나의 태그로 만들어서 보낸다
+ - if문 대신에 조건부 연산자 :?:
+ - &&를 사용한 조건부 렌더링(참인 경우에만 동작)
+ - ?? or || : null 혹은 undefined인 경우 뒤에 오는 값을 반환
+
+ - ?? : 비어있는 문자열 일 때는 동작하지 않음
+   || : 비어있는 문자열 일 때는 동작함
+
+ - map : 배열 출력할때 사용
+
+=====================================================================
+
+props : properties 줄임말
+        컴포넌트끼리 데이터를 전달할 때 사용
+        부모 => 자식
+        
