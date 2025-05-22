@@ -8,10 +8,10 @@ import MyFunction from "./MyFunction";
 import MyStyle from "./MyStyle.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <App />
-    {/* <MyComponent /> */}
-    {/* <Book /> */}
-    {/* <MyStyle /> */}
-  </StrictMode>
+  // <StrictMode>
+  <App />
+  // {/* <MyComponent /> */}
+  // {/* <Book /> */}
+  // {/* <MyStyle /> */}
+  // </StrictMode>
 );
