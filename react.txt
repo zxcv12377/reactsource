@@ -26,8 +26,15 @@ formatter -> prettier
 
  1. npm i --global yarn (yarn 설치)
  2. yarn --version (yarn 버전 확인)
-  yarn add 패키지명
-  yarn add tailwindcss @tailwindcss/vite
+
+  # yarn add 패키지명
+
+  # yarn add tailwindcss @tailwindcss/vite
+
+  # yarn add react-icons
+
+  # yarn add axios
+  
  3. react 프로그램 생성
  npx create-react-app 앱이름 (전통적인 방법)
  vite 환경에서 react 프로그램생성
