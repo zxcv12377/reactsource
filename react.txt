@@ -34,6 +34,8 @@ formatter -> prettier
   # yarn add react-icons
 
   # yarn add axios
+
+  # yarn add react-router-dom
   
  3. react 프로그램 생성
  npx create-react-app 앱이름 (전통적인 방법)
