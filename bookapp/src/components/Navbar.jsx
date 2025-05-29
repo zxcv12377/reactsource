@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="flex justify-between h-14 items-center px-5 bg-sky-600 text-white">
       <h1 className="text-xl font-bold">Book Manager</h1>
       <ul className="list-none flex m-0 p-0 gap-4">
-        <li clas>
+        <li>
           <Link to={"/"} className="hover:underline underline-offset-1">
             Home
           </Link>
